@@ -1,0 +1,44 @@
+body{
+	font-family:sans-serif;
+}
+#content{
+	margin:10px;
+}
+.leftContent{
+	float:left;
+	width:20%;
+}
+h2{
+	margin-top:5px;
+	margin-bottom:50px;
+	overflow-wrap: break-word;
+	font-size:23px;
+}
+.rightContent{
+	float:right;
+	width:40%;
+}
+#chartContainer{
+	display:flex;
+	width:25%;
+	height:25%;
+}
+.bold_input{
+	font-weight:bold;
+}
+.productTable{
+	height:400px;
+	overflow-y:scroll;
+}
+a.canvasjs-chart-credit{
+	display:none;
+}
+select{
+	font-size:inherit;
+	width:50%;
+}
+table { border: 1px solid black;border-collapse: collapse; }
+table td,th { border-left: 1px solid #000; padding:5px; word-break:break-word; max-width:100px;}
+table td:first-child { border-left: none; }
+tr:nth-child(odd) {background: #EEE}
+tr:nth-child(even) {background: #FFF}

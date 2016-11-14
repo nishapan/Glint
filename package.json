@@ -1,0 +1,38 @@
+{
+  "name": "glint-code-challenge",
+  "version": "0.0.0",
+  "private": true,
+  "license": "see LICENSE file",
+  "description": "Glint Code Challenge",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "fixed-data-table": "0.6.3",
+	 "react": "15.3.2",
+	 "react-dom": "15.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "comment",
+    "example"
+  ],
+  "author": "nisha pan",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": "4.1.x"
+  }
+}
