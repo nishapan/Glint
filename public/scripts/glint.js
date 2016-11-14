@@ -222,7 +222,7 @@ class ProductDetail extends React.Component {
 				<td contentEditable onBlur={this.handleChange.bind(this, product.id, 'year', product.year)}>{product.year}</td>
 				<td contentEditable onBlur={this.handleChange.bind(this, product.id, 'product', product.product)}>{product.product}</td>
 				<td contentEditable onBlur={this.handleChange.bind(this, product.id, 'country', product.country)}>{product.country}</td>
-				<td contentEditable onBlur={this.handleChange.bind(this, product.id, 'revenue', product.revenue)}>{rev}</td>
+				<td className={(product.revenue < this.props.revAvg)?"bold_td":""} contentEditable onBlur={this.handleChange.bind(this, product.id, 'revenue', product.revenue)}>{rev}</td>
 		
 				</tr>
 			);
